@@ -1,4 +1,5 @@
 body {
+  background-color: #bea57d;
   display: grid;
   grid-template-columns: 4fr 1fr;
   grid-template-rows: 1fr 3fr 1fr;
@@ -16,7 +17,7 @@ main {
   grid-area: main;
 }
 aside {
-  background-color: #bea57d;
+  background-color: #a4bab7;
   grid-area: aside;
 }
 footer {
