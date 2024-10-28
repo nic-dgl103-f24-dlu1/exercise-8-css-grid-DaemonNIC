@@ -3,3 +3,15 @@ body {
   grid-template-columns: 5;
   grid-template-rows: 3;
 }
+header {
+  background-color: #661614;
+}
+main {
+  background-color: #eff2c0;
+}
+aside {
+  background-color: #bea57d;
+}
+footer {
+  background-color: #661614;
+}
