@@ -23,4 +23,10 @@ aside {
 footer {
   background-color: #661614;
   grid-area: footer;
+  display: flex;
+  border-top: #090f0f;
+  padding: 2% 8% 0 8%;
+}
+footer nav img {
+  max-width: 300px;
 }
