@@ -2,7 +2,7 @@ body {
   background-color: #bea57d;
   display: grid;
   grid-template-columns: 4fr 1fr;
-  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 7fr 1fr;
   grid-template-areas:
     "header header"
     "main aside"
@@ -11,6 +11,7 @@ body {
 header {
   background-color: #661614;
   grid-area: header;
+  border-bottom: 5px solid #090f0f;
 }
 main {
   background-color: #eff2c0;
@@ -19,14 +20,21 @@ main {
 aside {
   background-color: #a4bab7;
   grid-area: aside;
+  border-left: 1px solid #090f0f;
 }
 footer {
   background-color: #661614;
   grid-area: footer;
   display: flex;
-  border-top: #090f0f;
+  border-top: 5px solid #090f0f;
   padding: 2% 8% 0 8%;
+}
+footer nav {
+  display: flex;
+  gap: 2%;
+  justify-content: space-around;
 }
 footer nav img {
   max-width: 300px;
+  align-items: center;
 }
