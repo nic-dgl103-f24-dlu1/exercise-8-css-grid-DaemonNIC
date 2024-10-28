@@ -1,17 +1,25 @@
 body {
   display: grid;
-  grid-template-columns: 5;
-  grid-template-rows: 3;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
 }
 header {
   background-color: #661614;
+  grid-area: header;
 }
 main {
   background-color: #eff2c0;
+  grid-area: main;
 }
 aside {
   background-color: #bea57d;
+  grid-area: aside;
 }
 footer {
   background-color: #661614;
+  grid-area: footer;
 }
