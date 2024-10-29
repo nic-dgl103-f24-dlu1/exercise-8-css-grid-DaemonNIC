@@ -65,6 +65,7 @@ main {
   grid-area: main;
   display: flex;
   flex-direction: column;
+  min-width: 50%;
 }
 h1 {
   font-size: 4.8rem;
@@ -128,6 +129,7 @@ aside {
   display: flex;
   flex-direction: column;
   padding: 5%;
+  min-width: 0;
 }
 /* google logo and link */
 aside a {
@@ -135,9 +137,17 @@ aside a {
   font-size: 2.8rem;
   text-align: center;
   margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  min-width: 30px;
 }
-aside a img {
+aside img {
+  flex-shrink: 2;
   border-radius: 20%;
+  min-width: 0;
+  height: auto;
+  max-width: 100%;
+  background-color: #661614;
 }
 /* Bracketed text in the aside*/
 aside p:nth-last-child(2) {
@@ -166,10 +176,13 @@ footer img {
 .footer-text {
   display: flex;
   flex-direction: column;
+  flex-shrink: 1;
+  min-width: 0;
 }
 .footer-text p {
   font-size: 3.2rem;
   color: #ffffff;
+  min-width: 0;
 }
 .footer-text a {
   font-size: 2.8rem;
@@ -178,7 +191,7 @@ footer img {
 }
 /* Social icons */
 footer nav {
-  flex-shrink: 1;
+  flex-shrink: 2;
   flex-grow: 1;
   display: flex;
   gap: 4%;
