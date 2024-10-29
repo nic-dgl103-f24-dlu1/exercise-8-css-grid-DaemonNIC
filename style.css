@@ -89,11 +89,22 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  margin: 0 10% 0 5%;
+  gap: 1%;
 }
+/* Extends images to fill grid area */
+section a img {
+  width: 100%;
+  object-fit: fill;
+  max-height: 500px;
+}
+/* makes one specific image take up two tiles (in the column) */
 section a:nth-last-child(3) {
   grid-row: 2;
   grid-column: 1 / 3;
+  min-width: 0;
 }
+/* makes a specific image take up all three tiles (in the column) */
 section a:nth-last-child(1) {
   grid-row: 3;
   grid-column: 1 / 4;
