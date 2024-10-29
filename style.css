@@ -92,6 +92,15 @@ section {
   margin: 0 10% 0 5%;
   gap: 1%;
 }
+section a img {
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 2px;
+  width: 500px;
+}
+section a img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
 /* Extends images to fill grid area */
 section a img {
   width: 100%;
