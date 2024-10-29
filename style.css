@@ -77,6 +77,9 @@ p {
 main ul {
   font-size: 3.6rem;
 }
+main ul li:first-child {
+  justify-self: flex-end;
+  margin-right: 5%;
 }
 aside {
   background-color: #a4bab7;
