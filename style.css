@@ -125,6 +125,7 @@ aside {
   border-left: 1px solid #090f0f;
   display: flex;
   flex-direction: column;
+  padding: 5%;
 }
 aside a {
   align-self: center;
@@ -134,6 +135,15 @@ aside a {
 }
 aside a img {
   border-radius: 20%;
+}
+aside p:nth-last-child(2) {
+  font-size: 2.2rem;
+  text-align: center;
+}
+aside p:nth-last-child(1) {
+  font-size: 4.8rem;
+  margin: 5%;
+  text-align: justify;
 }
 footer {
   background-color: #661614;
