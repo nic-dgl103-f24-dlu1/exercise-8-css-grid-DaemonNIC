@@ -150,7 +150,11 @@ footer {
   grid-area: footer;
   display: flex;
   border-top: 5px solid #090f0f;
-  padding: 2% 8% 0 8%;
+  padding: 2% 8% 0 3%;
+}
+footer img {
+  margin-top: auto;
+  object-fit: contain;
 }
 .footer-text {
   display: flex;
@@ -167,8 +171,10 @@ footer {
 }
 footer nav {
   display: flex;
-  gap: 2%;
+  gap: 4%;
   justify-content: space-around;
+  align-items: center;
+  margin-bottom: 8%;
 }
 footer nav img {
   max-width: 300px;
