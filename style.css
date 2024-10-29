@@ -63,6 +63,20 @@ header nav ul *:hover {
 main {
   background-color: #eff2c0;
   grid-area: main;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 4.8rem;
+  align-self: center;
+}
+p {
+  font-size: 3.6rem;
+  align-self: center;
+}
+main ul {
+  font-size: 3.6rem;
+}
 }
 aside {
   background-color: #a4bab7;
