@@ -161,7 +161,7 @@ footer img {
   flex-direction: column;
 }
 .footer-text p {
-  font-size: 4.8rem;
+  font-size: 3.6rem;
   color: #ffffff;
 }
 .footer-text a {
@@ -170,6 +170,7 @@ footer img {
   margin-top: auto;
 }
 footer nav {
+  flex-shrink: 1;
   display: flex;
   gap: 4%;
   justify-content: space-around;
@@ -177,9 +178,14 @@ footer nav {
   margin-bottom: 8%;
   min-width: 0;
 }
+footer nav a {
+  display: block;
+}
 footer nav img {
-  max-width: 300px;
+  display: block;
+  max-width: 200px;
+  min-width: 0;
   align-items: center;
   border-radius: 25%;
-  min-width: 0;
+  object-fit: contain;
 }
