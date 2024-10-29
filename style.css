@@ -159,6 +159,7 @@ footer {
   padding: 2% 8% 0 3%;
 }
 footer img {
+  min-width: 250px;
   margin-top: auto;
   object-fit: contain;
 }
@@ -167,7 +168,7 @@ footer img {
   flex-direction: column;
 }
 .footer-text p {
-  font-size: 3.6rem;
+  font-size: 3.2rem;
   color: #ffffff;
 }
 .footer-text a {
@@ -178,6 +179,7 @@ footer img {
 /* Social icons */
 footer nav {
   flex-shrink: 1;
+  flex-grow: 1;
   display: flex;
   gap: 4%;
   justify-content: space-around;
@@ -186,13 +188,16 @@ footer nav {
   min-width: 0;
 }
 footer nav a {
-  display: block;
-}
-footer nav img {
-  display: block;
+  display: flex;
+  height: auto;
   max-width: 200px;
   min-width: 0;
+}
+footer nav img {
+  max-width: 200px;
+  min-width: 25px;
   align-items: center;
   border-radius: 25%;
   object-fit: contain;
+  height: auto;
 }
