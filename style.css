@@ -50,6 +50,10 @@ header nav ul * {
   color: #090f0f;
   text-decoration: none;
 }
+header nav ul *:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
 main {
   background-color: #eff2c0;
   grid-area: main;
