@@ -92,20 +92,22 @@ section {
   margin: 0 10% 0 5%;
   gap: 1%;
 }
+section a {
+  min-width: 0;
+  min-height: 0;
+  max-height: 500px;
+}
+/* Extends images to fill grid area */
 section a img {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 2px;
-  width: 500px;
+  width: 100%;
+  object-fit: fill;
+  height: 100%;
 }
 section a img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-/* Extends images to fill grid area */
-section a img {
-  width: 100%;
-  object-fit: fill;
-  max-height: 500px;
 }
 /* makes one specific image take up two tiles (in the column) */
 section a:nth-last-child(3) {
