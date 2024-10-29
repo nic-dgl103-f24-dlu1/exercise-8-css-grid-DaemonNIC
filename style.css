@@ -152,6 +152,19 @@ footer {
   border-top: 5px solid #090f0f;
   padding: 2% 8% 0 8%;
 }
+.footer-text {
+  display: flex;
+  flex-direction: column;
+}
+.footer-text p {
+  font-size: 4.8rem;
+  color: #ffffff;
+}
+.footer-text a {
+  font-size: 2.8rem;
+  align-self: flex-end;
+  margin-top: auto;
+}
 footer nav {
   display: flex;
   gap: 2%;
