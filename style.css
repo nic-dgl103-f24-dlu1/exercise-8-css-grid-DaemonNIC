@@ -25,6 +25,24 @@ header {
   background-color: #661614;
   grid-area: header;
   border-bottom: 5px solid #090f0f;
+  display: flex;
+  justify-content: space-around;
+}
+header img {
+  border-radius: 100%;
+  width: 20%;
+  align-self: center;
+}
+header nav {
+  width: 60%;
+  align-self: flex-end;
+  margin-bottom: 10%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
 }
 main {
   background-color: #eff2c0;
