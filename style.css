@@ -85,6 +85,11 @@ main ul li:first-child {
   justify-self: flex-end;
   margin-right: 5%;
 }
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
 aside {
   background-color: #a4bab7;
   grid-area: aside;
