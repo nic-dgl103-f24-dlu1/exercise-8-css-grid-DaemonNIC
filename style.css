@@ -51,12 +51,12 @@ header nav ul {
   font-size: 3.6rem;
 }
 /* settings for individual links */
-header nav ul * {
+a {
   color: #090f0f;
   text-decoration: none;
 }
 /* hover effects for individual links */
-header nav ul *:hover {
+a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
