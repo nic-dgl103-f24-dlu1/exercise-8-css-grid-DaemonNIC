@@ -74,6 +74,7 @@ p {
   font-size: 3.6rem;
   align-self: center;
 }
+/* creates a center aligned list */
 main ul {
   font-size: 3.6rem;
 }
@@ -81,6 +82,7 @@ main ul li {
   justify-self: center;
   margin-right: 3%;
 }
+/* moves first line of list to far right */
 main ul li:first-child {
   justify-self: flex-end;
   margin-right: 5%;
@@ -127,6 +129,7 @@ aside {
   flex-direction: column;
   padding: 5%;
 }
+/* google logo and link */
 aside a {
   align-self: center;
   font-size: 2.8rem;
@@ -136,15 +139,18 @@ aside a {
 aside a img {
   border-radius: 20%;
 }
+/* Bracketed text in the aside*/
 aside p:nth-last-child(2) {
   font-size: 2.2rem;
   text-align: center;
 }
+/* Aside main text */
 aside p:nth-last-child(1) {
   font-size: 4.8rem;
   margin: 5%;
   text-align: justify;
 }
+/* beginning of footer */
 footer {
   background-color: #661614;
   grid-area: footer;
@@ -169,6 +175,7 @@ footer img {
   align-self: flex-end;
   margin-top: auto;
 }
+/* Social icons */
 footer nav {
   flex-shrink: 1;
   display: flex;
