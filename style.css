@@ -175,8 +175,11 @@ footer nav {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 8%;
+  min-width: 0;
 }
 footer nav img {
   max-width: 300px;
   align-items: center;
+  border-radius: 25%;
+  min-width: 0;
 }
