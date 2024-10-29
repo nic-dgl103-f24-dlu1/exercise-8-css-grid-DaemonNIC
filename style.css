@@ -23,6 +23,7 @@ body {
     "main aside"
     "footer footer";
 }
+/* The beginning of the header section */
 header {
   background-color: #661614;
   grid-area: header;
@@ -30,26 +31,31 @@ header {
   display: flex;
   justify-content: space-around;
 }
+/* Rounds the image to make it more icon-y */
 header img {
   border-radius: 100%;
   width: 20%;
   align-self: center;
 }
+/* Configures nav position */
 header nav {
   width: 60%;
-  align-self: flex-end;
-  margin-bottom: 10%;
+  align-self: center;
+  margin-top: 5%;
 }
+/* settings for overall nav */
 header nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
   font-size: 3.6rem;
 }
+/* settings for individual links */
 header nav ul * {
   color: #090f0f;
   text-decoration: none;
 }
+/* hover effects for individual links */
 header nav ul *:hover {
   color: #ffffff;
   text-decoration: underline;
